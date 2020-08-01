@@ -1,13 +1,13 @@
 <h1 align="center">Batch File Renamer</h1>
 
-[![CodeFactor](https://www.codefactor.io/repository/github/joshuacrotts/SDL-Brick-Breaker/badge)](https://www.codefactor.io/repository/github/joshuacrotts/SDL-Brick-Breaker) ![GitHub contributors](https://img.shields.io/github/contributors/JoshuaCrotts/SDL-Brick-Breaker) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/JoshuaCrotts/SDL-Brick-Breaker) ![GitHub repo size](https://img.shields.io/github/repo-size/JoshuaCrotts/SDL-Brick-Breaker)  ![](https://tokei.rs/b1/github/JoshuaCrotts/SDL-Brick-Breaker) ![](https://tokei.rs/b1/github/JoshuaCrotts/SDL-Brick-Breaker?category=files) [![GitHub issues open](https://img.shields.io/github/issues/JoshuaCrotts/SDL-Brick-Breaker)]() 
-[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/JoshuaCrotts/SDL-Brick-Breaker)]()
+[![CodeFactor](https://www.codefactor.io/repository/github/joshuacrotts/Batch-File-Renamer/badge)](https://www.codefactor.io/repository/github/joshuacrotts/Batch-File-Renamer) ![GitHub contributors](https://img.shields.io/github/contributors/JoshuaCrotts/Batch-File-Renamer) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/JoshuaCrotts/Batch-File-Renamer) ![GitHub repo size](https://img.shields.io/github/repo-size/JoshuaCrotts/Batch-File-Renamer)  ![](https://tokei.rs/b1/github/JoshuaCrotts/Batch-File-Renamer) ![](https://tokei.rs/b1/github/JoshuaCrotts/Batch-File-Renamer?category=files) [![GitHub issues open](https://img.shields.io/github/issues/JoshuaCrotts/Batch-File-Renamer)]() 
+[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/JoshuaCrotts/Batch-File-Renamer)]()
 
 Have you ever had a list of files in a directory that you wanted to rename all at once, but couldn't find the necessary bash or terminal commands to do so? Well, this Python script has you covered! Sure, it's a very narrow use-case, but it works! For instance, when I download and splice spritesheets, very often I find myself having to go through and rename every file to have a common, no padded-zero prefix (e.g. tile_009.png, tile_010.png... this just screws up my whole day!). 
 
 ## Usage ##
 
-To use this, open your terminal/Python shell, and type the following:
+To use this, open your terminal/Python shell, and use the following format to execute the program:
 
 <code>python main.py /path/to/dir/ old_file_prefix desired_file_prefix .file_extension padded_zero_count</code>
 
